@@ -1,3 +1,6 @@
 <div>
 	<h1>Home Page</h1>
+	<shownames [names]="list"></shownames>
 </div>
+
+<footer><hr>Total: {{list?.length}} names returned by <a href="api/names">api/names</a></footer>

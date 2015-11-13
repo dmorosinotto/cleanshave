@@ -5,7 +5,10 @@ import { About } from './about/about';
 
 
 @ng.Component({
-    selector: 'app',templateUrl: './app/app.html',
+    selector: 'app'
+})
+@ng.View({
+    templateUrl: './app/app.html',
     styleUrls: ['./app/app.css'],
     directives: [router.ROUTER_DIRECTIVES, ng.NgFor]
 })
@@ -14,6 +17,6 @@ import { About } from './about/about';
     { path: '/About', component: About, as: 'About' },
 ])
 export class App {
-
+    constructor(){}
 }
 

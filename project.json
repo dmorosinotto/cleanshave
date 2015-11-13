@@ -1,9 +1,9 @@
 {
   "webroot": "wwwroot",
-  "userSecretsId": "aspnet5-cleanshave-1f0975b2-5a07-429c-a802-d465f74dbadb",
+  "userSecretsId": "aspnet5-Aspnet5Ng2-1f0975b2-5a07-429c-a802-d465f74dbadb",
   "version": "1.0.0-*",
   "tooling": {
-    "defaultNamespace": "CleanShave"
+    "defaultNamespace": "Aspnet5Ng2"
   },
   "dependencies": {
     "Microsoft.AspNet.Diagnostics": "1.0.0-beta8",
@@ -20,7 +20,9 @@
     "EntityFramework.SQLite": "7.0.0-beta8",
     "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-beta8",
     "AutoMapper": "4.0.0-alpha1",
-    "Microsoft.AspNet.NodeServices.Angular": "1.0.0-alpha5"
+    
+    
+    "Microsoft.AspNet.AngularServices": "1.0.0-alpha6"
   },
   "commands": {
     "web": "Microsoft.AspNet.Server.Kestrel"

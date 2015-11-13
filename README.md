@@ -1,12 +1,21 @@
-# CleanShave
+# Aspnet5Ng2
 An Angular 2 application with ASP.NET 5
 
-### Getting Started
-The application is built on beta8 of ASP.NET 5, refer to http://docs.asp.net to install.
+## [VIDEO](https://channel9.msdn.com/Events/ASPNET-Events/ASPNET-Fall-Sessions/ASPNET--Spa)
 
-1. Fork and clone the site
+### GETTING STARTED
+* Requirements: The application is built on beta8 of ASP.NET 5, refer to http://docs.asp.net to install (1.0.0 beta 8)
+	* `> curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh`
+	* `> brew update`
+	* `> brew install icu4c`
+	* `> dnvm update -r coreclr`
+	* `> npm i -g nodemon`
+
+1. Fork and clone the repo
 
 1. Run `npm install`
+
+1. Run `dnu restore` 
 
 1. Open a terminal window and execute `npm run tsc`, this starts the TypeScript compiler
 

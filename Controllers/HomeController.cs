@@ -1,6 +1,6 @@
 using Microsoft.AspNet.Mvc;
 
-namespace CleanShave.Controllers
+namespace Aspnet5Ng2.Controllers
 {
     public class HomeController : Controller
     {

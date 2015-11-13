@@ -1,7 +1,7 @@
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Data.Entity;
 
-namespace CleanShave.Models
+namespace Aspnet5Ng2.Models
 {
     public class ApplicationUser : IdentityUser { }
 

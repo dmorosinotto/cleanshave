@@ -5,7 +5,7 @@ using Microsoft.Framework.Configuration;
 using Microsoft.Framework.DependencyInjection;
 using Microsoft.Framework.Logging;
 
-namespace CleanShave
+namespace Aspnet5Ng2
 {
     public class Startup
     {
@@ -74,7 +74,7 @@ namespace CleanShave
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
 
-                // 404 routingfor SPA
+                // awoid 404 when hiting client-side routing for SPA (redirect to Home that load NG2 app and then do clientside routing)
                 routes.MapRoute("spa-fallback", "{*anything}", new { controller = "Home", action = "Index" });
 
                 // Uncomment the following line to add a route for porting Web API 2 controllers.
